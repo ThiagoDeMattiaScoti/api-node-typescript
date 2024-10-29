@@ -1,9 +1,8 @@
 import { Router } from 'express';
-
 const router = Router()
 
-router.get('/', (req, res) => {
-    res.status(200).send('Olá, DEV')
+router.post('/teste', (req, res) => {
+    res.json(req.body)
 })
 
 export { router }
