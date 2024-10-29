@@ -4,13 +4,20 @@
   "main": "index.js",
   "author": "Thiago De Mattia Scoti",
   "license": "MIT",
+  "scripts": {
+    "start": "ts-node-dev ./src/index.ts"
+  },
   "private": false,
   "dependencies": {
     "express": "^4.21.1"
   },
   "devDependencies": {
+    "@eslint/js": "^9.13.0",
     "@types/express": "^5.0.0",
+    "eslint": "^9.13.0",
+    "globals": "^15.11.0",
     "ts-node-dev": "^2.0.0",
-    "typescript": "^5.6.3"
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.12.1"
   }
 }

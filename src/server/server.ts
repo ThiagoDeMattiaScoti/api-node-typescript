@@ -1,8 +1,6 @@
 import express from 'express'
+import { router } from './routes'
 const server = express()
+server.use(router)
 
-server.get('/', (req, res) => {
-   res.send('hi')
-})
-
-export {server}
+export { server }
